@@ -1,0 +1,13 @@
+print("Welcome to Oxford Recruitment System we will be asking you a set of questions so please answer them.")
+print("What's your name?")
+name = input()
+print("How old are you?")
+age = input()
+print("Which subject do you choose?")
+subject = input()
+filename = "%s.txt" % name
+message = "Oxford Recruitment System\nWhat's your name?\n%s\nHow old are you?\n%s\nWhich subject do you choose?\n%s\n" %(name,age,subject)
+f = open(filename, 'w')
+f.write(message)
+f.close()
+print(message)
