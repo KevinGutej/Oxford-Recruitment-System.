@@ -8,7 +8,7 @@ Here you will be able to fill out a form and hand it into where you need. Its fa
 print("Welcome to Oxford Recruitment System we will be asking you a set of questions so please answer them.")
 print("What's your name?")
 name = input()
-print("How old are you?")
+print("how old are you?")
 age = input()
 print("Which subject do you choose?")
 subject = input()
